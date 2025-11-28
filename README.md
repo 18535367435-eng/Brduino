@@ -109,5 +109,3 @@
 3.  数据采集过程中，请勿关闭 Processing 或驱动程序，避免采集中断；
 4.  采集数据默认保存为 TXT 格式，可后续导入 MATLAB、Python 等工具进行离线分析。
 
-
-> Written with [StackEdit](https://stackedit.io/).
