@@ -1,19 +1,19 @@
 ## 项目简介
 
-本项目提供Brduino (原BCIduino) 脑电放大器的驱动部署、设备连接及基于 Processing 的实时脑电数据可视化解决方案，适用于脑电信号采集与实时分析场景。
+本项目提供 Brduino (原BCIduino) 脑电放大器的驱动部署、设备连接及基于 Processing 的实时脑电数据可视化解决方案，适用于脑电信号采集与实时分析场景。
 
 ## 环境准备
 
 ### 硬件要求
 
 -   电脑（Windows 系统）
--   BCIduino 脑电放大器
+-   Brduino (原BCIduino) 脑电放大器
 -   蓝牙适配器（电脑内置或外置）
 
 ### 软件资源
 
 -   Processing 3.5.3 安装包及补丁
--   BCIduino 放大器资料压缩包（含 OpenBCI Hub 驱动、GUI 可视化程序）
+-   Brduino (原BCIduino) 放大器资料压缩包（含 OpenBCI Hub 驱动、GUI 可视化程序）
 -   配套 libraries 压缩包（Processing 依赖库）
 
 ## Processing 安装与配置
@@ -32,7 +32,7 @@
 
 ## BCIduino 放大器资料部署
 
-1.  解压  `BCIduino 放大器资料.zip`  到常用目录（示例路径：`D:\新建文件夹\BCIduino放大器资料\openbci升级版放大器资料`）；
+1.  解压  `Brduino (原BCIduino) 放大器资料.zip`  到常用目录（示例路径：`D:\新建文件夹\BCIduino资料\openbci`）；
 2.  解压后目录包含 3 个核心文件夹，功能如下：
     -   `1`：存储 OpenBCI Hub 驱动程序（作为放大器驱动使用）；
     -   `OpenBCI GUI`：存储 Processing 可视化源码文件；
@@ -43,25 +43,25 @@
 ### 1. 蓝牙配对
 
 1.  打开电脑蓝牙设置（路径：系统设置 > 蓝牙和其他设备）；
-2.  开启 BCIduino 放大器，设备会以  `BCIduino (X03)`  或  `BUAAWYZ`  为名出现在蓝牙设备列表中；
+2.  开启 Brduino (原BCIduino) 放大器，设备会以  `Brduino (X03)`  或  `BUAAWYZ`  为名出现在蓝牙设备列表中；
 3.  点击设备名称进行配对，**无需输入密码**，等待配对成功即可。
 
 ### 2. 查找 COM 端口
 
 1.  配对成功后，进入「蓝牙设置 > 更多蓝牙选项 > 硬件 > COM 端口」；
-2.  记录 BCIduino 对应的**传出端口**（示例：`COM4`，名称显示为  `BCIduino-0003'RFCOM'`），传入端口（如  `COM3`）无需关注，仅需使用传出端口进行后续连接。
+2.  记录 Brduino (原BCIduino) 对应的**传出端口**（示例：`COM4`，名称显示为  `BCIduino-0003'RFCOM'`），传入端口（如  `COM3`）无需关注，仅需使用传出端口进行后续连接。
 
 ## 实时脑电可视化操作
 
 ### 1. 启动放大器驱动
 
-1.  进入路径：`D:\新建文件夹\BCIduino放大器资料\openbci升级版放大器资料\1\OpenBCIHub`；
+1.  进入路径：`D:\新建文件夹\BCIduino资料\openbci\1\OpenBCIHub`；
 2.  找到并双击  `OpenBCIHub.exe`（文件大小 978KB），启动驱动程序（无需安装，运行后在后台驻留）；
     -   注意：同目录下的  `ffmpeg.dll`、`libEGL.dll`、`msvcp140.dll`  等为驱动依赖文件，请勿删除或移动。
 
 ### 2. 打开可视化程序
 
-1.  进入路径：`D:\新建文件夹\BCIduino放大器资料\openbci升级版放大器资料\OpenBCI GUI`；
+1.  进入路径：`D:\新建文件夹\BCIduino资料\openbci\OpenBCI GUI`；
 2.  找到  `OpenBCI_GUI.pde`  文件（文件大小 57KB），双击该文件会自动用 Processing 打开；
     -   注意：该目录包含 57 个相关源码文件（如  `Interactivity.pde`、`InterfaceSerial.pde`  等），请勿修改文件名或路径。
 
@@ -84,7 +84,7 @@
     -   确认  `libraries`  依赖库已正确复制到  `C:\文档\Processing\libraries`  目录。
 2.  **蓝牙配对成功但找不到 COM 端口？**
     
-    -   重新启动 BCIduino 放大器和电脑蓝牙；
+    -   重新启动 Brduino (原BCIduino) 放大器和电脑蓝牙；
     -   检查放大器是否处于正常工作状态（确保电源充足）。
 3.  **GUI 显示无数据输入？**
     
@@ -99,7 +99,7 @@
 ## 版本信息
 
 -   Processing 版本：3.5.3
--   BCIduino 放大器驱动版本：OpenBCIHub 2018-11-06
+-   Brduino (原BCIduino) 放大器驱动版本：OpenBCIHub 2018-11-06
 -   最后更新日期：2023-05-05
 
 ## 注意事项
