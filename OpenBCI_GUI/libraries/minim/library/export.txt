@@ -1,1 +1,3 @@
-name = Minim Audio
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c378b15a46407cbc5eefccd128dccbede7498ba3fce3973257cd522b56ae615
+size 19

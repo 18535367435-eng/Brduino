@@ -1,3 +1,3 @@
-0-30s prep
-30-85s focus on a banana
-85s- losing focus
+version https://git-lfs.github.com/spec/v1
+oid sha256:d4d4ba907d35899b417ca8615b6fd2cbb703628cbb61efe9ffaf5bcb78570681
+size 53

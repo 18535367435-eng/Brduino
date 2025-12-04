@@ -1,4 +1,3 @@
-Should be about 9 minutes long....
-2 minutes of baseline (reading google news on my cell phone, my default activity)
-5 minutes of relaxation, letting thoughts wander, pondering last minute christmas presents
-then, 2 min of reading chip's blog post on eye blinks.
+version https://git-lfs.github.com/spec/v1
+oid sha256:affaef141ff874ed0fce029228d6d19100826df81acd831f96c294c88bb666d7
+size 262

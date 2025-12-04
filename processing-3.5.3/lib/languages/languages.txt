@@ -1,22 +1,3 @@
-﻿# List of supported language codes
-# http://en.wikipedia.org/wiki/ISO_639-1
-# http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-
-# Add new languages in alphabetical order to (slightly)
-# reduce the risk of merge conflicts
-
-ar  # Arabic
-de  # German, Deutsch
-en  # English, English
-el  # Greek
-es  # Spanish
-fr  # French, Français, Langue française
-it  # Italiano, Italian
-ja  # Japanese
-ko  # Korean
-nl  # Dutch, Nederlands
-pt  # Portuguese
-ru  # Russian
-tr  # Turkish
-uk  # Ukrainian
-zh  # Chinese
+version https://git-lfs.github.com/spec/v1
+oid sha256:464199a8a8894dd56524236ebc84a6e6ba0e9b7816671a2642b76a4de6d96bcb
+size 529

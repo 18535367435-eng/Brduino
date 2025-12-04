@@ -1,0 +1,5 @@
+*.txt filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.asar filter=lfs diff=lfs merge=lfs -text
+1/OpenBCIHub/resources/app.asar filter=lfs diff=lfs merge=lfs -text
+1/OpenBCIHub/OpenBCIHub.exe filter=lfs diff=lfs merge=lfs -text

@@ -1,4 +1,3 @@
-Should be about 23 minutes long....
-5 minutes of baseline (reading google news on my cell phone, my default activity)
-15 minutes of breathing meditation (there were two interval bells at 5 minute intervals tha tmay be visible on eeg)
-then, another ~ 3 min of baseline google news reading.
+version https://git-lfs.github.com/spec/v1
+oid sha256:308152cf29310cd60a4dec4df33b394f32e5d02aa867ed9f0549f574b3a894f5
+size 288

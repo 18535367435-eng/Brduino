@@ -1,1 +1,3 @@
-name = Hardware I/O for Raspberry Pi and other Linux-based computers
+version https://git-lfs.github.com/spec/v1
+oid sha256:4cbd100d1ea8ab8844b2699786538be8dde17daddbd60982a659ee0381d8a167
+size 70
