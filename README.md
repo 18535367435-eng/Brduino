@@ -146,7 +146,7 @@ This project provides a driver deployment, device connection, and real-time EEG 
 2.  解压网盘下载的  `libraries.zip`  压缩包（文件大小 34,765KB）；
 3.  将解压后的**所有文件夹**原封不动复制到  `C:\文档\Processing\libraries`  中，完成依赖库配置。
 
-## BCIduino 放大器资料部署
+## Brduino 放大器资料部署
 
 1.  解压  `Brduino (原BCIduino) 放大器资料.zip`  到常用目录（示例路径：`D:\新建文件夹\BCIduino资料\openbci`）；
 2.  解压后目录包含 3 个核心文件夹，功能如下：
